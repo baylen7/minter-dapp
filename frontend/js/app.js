@@ -10,12 +10,13 @@ window.addEventListener("DOMContentLoaded", async () => {
   welcomeH2.innerText = welcome_h2;
   welcomeP.innerHTML = welcome_p;
   
+  const btn = document.getElementById("btn");
   btn.addEventListener("click", ()=>{
 
-    if(href === "about.html"){
-         href="index.html";
+    if(btn.innerText === "Red"){
+        btn.innerText = "Blue";
     }else{
-        href="about.html";
+        btn.innerText= "Red";
     }
 });
 
