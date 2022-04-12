@@ -12,10 +12,10 @@ window.addEventListener("DOMContentLoaded", async () => {
   
   btn.addEventListener("click", ()=>{
 
-    if(btn.innerText === "Red"){
-        btn.innerText = "Blue";
+    if( href === "about.html"){
+         href="about.html";
     }else{
-        btn.innerText= "Red";
+        href="about.html";
     }
 });
 
