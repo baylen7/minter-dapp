@@ -9,6 +9,15 @@ window.addEventListener("DOMContentLoaded", async () => {
   welcomeH1.innerText = welcome_h1;
   welcomeH2.innerText = welcome_h2;
   welcomeP.innerHTML = welcome_p;
+  
+  btn.addEventListener("click", ()=>{
+
+    if(btn.innerText === "Red"){
+        btn.innerText = "Blue";
+    }else{
+        btn.innerText= "Red";
+    }
+});
 
   if (window.ethereum) {
     window.web3 = new Web3(window.ethereum);
