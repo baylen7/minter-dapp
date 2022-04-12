@@ -12,7 +12,7 @@ window.addEventListener("DOMContentLoaded", async () => {
   
   btn.addEventListener("click", ()=>{
 
-    if( href === "about.html"){
+    if(href === "about.html"){
          href="index.html";
     }else{
         href="about.html";
