@@ -13,11 +13,6 @@ window.addEventListener("DOMContentLoaded", async () => {
   const btn = document.getElementById("btn");
   btn.addEventListener("click", ()=>{
 
-    if(btn.innerText === "Red"){
-        btn.innerText = "Blue";
-    }else{
-        btn.innerText= "Red";
-    }
 });
 
   if (window.ethereum) {
